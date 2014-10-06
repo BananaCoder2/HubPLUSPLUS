@@ -1,0 +1,21 @@
+name: hubplusplus
+author: Banana_Coder
+version: 1.0
+description: teleport player to Hub!
+main: me.banana.hub.Main
+commands:
+   hub:
+      description: Teleport to Hub.
+      aliases: h
+      
+   reloadhub:
+      description: Reload hub!
+      aliases: rh
+      permission: hub++.reloadhub
+      permission-message: You don't have permission reload hub!
+      
+   sethub:
+      description: SetSpawn in location
+      aliases: sh
+      permission: hub++.setspawn
+      permission-message: You don't have permission to sethub and setspawn!
